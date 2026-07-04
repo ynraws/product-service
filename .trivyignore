@@ -1,0 +1,7 @@
+# CVE-2026-29786: node-tar hardlink path traversal - bundled in npm's internal tooling,
+# not used by application code at runtime. Assessed as low risk for this service.
+CVE-2026-29786
+
+# CVE-2026-31802: tar file overwrite via drive-relative symlink - same as above,
+# part of npm's vendored tar dependency, not application-facing.
+CVE-2026-31802
